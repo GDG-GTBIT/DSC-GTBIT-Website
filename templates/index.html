@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<center>
+    <style>
+        .anim{
+            animation: anim 3s ease infinite forwards;
+        }
+        .earth{
+            display: inline-block;
+            animation: earth 0.3s ease infinite forwards;
+        }
+        @keyframes earth{
+            0%{transform: translate(0,0)}
+            20%{transform: translate(2.5px,5px)}
+            40%{transform: translate(2.5px,2.5px)}
+            60%{transform: translate(7.5px,2.5px)}
+            80%{transform: translate(5px,2.5px)}
+            100%{transform: translate(0,0)}
+        }
+
+        @keyframes anim{
+            0%{opacity: 0;}
+            25%{opacity: 1;}
+            75%{opacity: 1;}
+            100%{opacity: 0;}
+        }
+    </style>
+    <div>
+        <span class="anim">
+            <img src="https://giffiles.alphacoders.com/158/158674.gif" />
+        </span>
+        <Br>
+        <h1 style="font-family: Arial, Helvetica, sans-serif;">
+            <div class="earth" style="animation-delay: 0s;">The</div>
+            <div class="earth" style="animation-delay: 0.1s;">Website</div>
+            <div class="earth" style="animation-delay: 0.15s;">is</div>
+            <div class="earth" style="animation-delay: 0.05s;">under</div>
+            <div class="earth" style="animation-delay: 0.2s;">construction</div>
+        </h1>
+    </div>
+</center>
+
+{% endblock %}
