@@ -1,8 +1,7 @@
-# Hello World Website
-The WebApp cum Website is under development. <br>
+# DSC Website
 Link for the development server: 
 <Br>
-http://hello-world15.herokuapp.com
+http://dscgtbit.herokuapp.com
 
 
 <!-- <img src="https://media.tenor.com/images/c674ba98c40f6793eaf10a1356c1c36a/tenor.gif" /> -->
