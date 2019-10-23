@@ -215,6 +215,6 @@ as a result.
 <br>
 If you don't know how to install requirements, please refer <a href="#point6">Point number 6</a>
 <Br><br>
-Copyright &copy; DSC, GTBIT 2019
-## This is an Open and official Repository of Hello World Website
+Copyright &copy; DSC-GTBIT 2019
+## This is an Open and official Repository of DSC-GTBIT Website
 # Happy Coding :)
